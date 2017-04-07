@@ -1,0 +1,24 @@
+{
+    "name": "chinkei/lumen-health",
+    "description": "lumen health checking component for microservices",
+    "license": "MIT",
+    "keywords": ["lumen", "healthcheck"],
+    "authors": [
+        {
+            "name": "chenjia",
+            "email": "chenjia@patsnap.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.4",
+        "illuminate/support": ">=5.2"
+    },
+    "autoload": {
+        "classmap": [
+            "src"
+        ],
+        "psr-4": {
+            "Chinkei\\LumenHealth\\": "src/"
+        }
+    }
+}
